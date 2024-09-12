@@ -318,33 +318,33 @@ def check_get_answer_price_vs_latest_answer(currency, info):
         f"Error: Price mismatch! Expected price from aggregator: {latest_answer_price}, but got: {actual_price}"
 
 # 7
-# def check_round_updates_after_1800(currency, info):
-#     contract = w3.eth.contract(address=info['address'], abi = contract_abi)
-#
-#     latest_round = contract.functions.latestRound().call()
-#
-#     # Get latest timestamp
-#     start_timestamp = contract.functions.latestTimestamp().call()
-#     # Convert the provided timestamp (seconds since epoch) to a datetime object
-#     target_time = datetime.fromtimestamp(start_timestamp + 1800)
-#
-#     while True:
-#         current_time = datetime.now()
-#
-#         # Check if 30 minutes have passed
-#         if current_time >= target_time:
-#             print("30 minutes have passed. Fetching latest data...")
-#             break
-#
-#         # Wait a few seconds before checking the block again
-#         time.sleep(10)
-#
-#     latest_round_after_1800 = contract.functions.latestRound().call()
-#     latest_round_timestamp = contract.functions.latestTimestamp().call()
-#
-#     assert (latest_round_after_1800 - latest_round) == 1,\
-#         f"Error: Round mismatch! Expected the next round to be {latest_round + 1}," \
-#         f" but got {latest_round_after_1800}. Check if a new round has been initiated after the wait time."
-#
-#     assert (latest_round_timestamp - (start_timestamp + 1800)) <= 30,\
-#         f"The previous round timestamp: {start_timestamp} is different from the latest round timestamp: {latest_round_timestamp}!"
+def check_round_updates_after_1800(currency, info):
+    contract = w3.eth.contract(address=info['address'], abi = contract_abi)
+
+    latest_round = contract.functions.latestRound().call()
+
+    # Get latest timestamp
+    start_timestamp = contract.functions.latestTimestamp().call()
+    # Convert the provided timestamp (seconds since epoch) to a datetime object
+    target_time = datetime.fromtimestamp(start_timestamp + 1800)
+
+    while True:
+        current_time = datetime.now()
+
+        # Check if 30 minutes have passed
+        if current_time >= target_time:
+            print("30 minutes have passed. Fetching latest data...")
+            break
+
+        # Wait a few seconds before checking the block again
+        time.sleep(10)
+
+    latest_round_after_1800 = contract.functions.latestRound().call()
+    latest_round_timestamp = contract.functions.latestTimestamp().call()
+
+    assert (latest_round_after_1800 - latest_round) == 1,\
+        f"Error: Round mismatch! Expected the next round to be {latest_round + 1}," \
+        f" but got {latest_round_after_1800}. Check if a new round has been initiated after the wait time."
+
+    assert (latest_round_timestamp - (start_timestamp + 1800)) <= 30,\
+        f"The previous round timestamp: {start_timestamp} is different from the latest round timestamp: {latest_round_timestamp}!"

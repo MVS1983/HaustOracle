@@ -3,7 +3,4 @@
 allure_result_folder/
 .pytest_cache/
 
-
-.idea/
 __pycache__/
-allure_result_folder/

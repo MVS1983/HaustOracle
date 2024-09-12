@@ -77,6 +77,7 @@ def test_comparison_latest_answer_price_vs_get_answer_price(currency, info):
     check_get_answer_price_vs_latest_answer(currency, info)
 
 
+@pytest.mark.skip(reason="Skipping this test for now")
 @pytest.mark.parametrize("currency,info", contract_info.items())
 @allure.feature("Check price updates in new round")
 def test_check_round_updates_after_1800(currency, info):

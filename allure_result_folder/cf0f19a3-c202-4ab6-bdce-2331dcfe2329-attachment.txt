@@ -1,7 +1,0 @@
-Aggregator price: tether:99987535
-Fallback-Oracle:tether:99987535
-Starting Time 1726156879, Target Time: 2024-09-12 18:31:19
-30 minutes have passed. Fetching latest data...
-Aggregator price after 30 minutes: tether:99984206
-Fallback-Oracle price after 30 minutes:tether:99984206
-Latest timestamp after 30 min: 1726158679

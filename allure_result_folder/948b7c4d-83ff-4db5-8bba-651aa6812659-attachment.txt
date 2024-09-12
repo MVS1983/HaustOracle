@@ -1,7 +1,0 @@
-Aggregator price: usd-coin:100004773
-Fallback-Oracle:usd-coin:100004773
-Starting Time 1726156879, Target Time: 2024-09-12 18:31:19
-30 minutes have passed. Fetching latest data...
-Aggregator price after 30 minutes: usd-coin:100004864
-Fallback-Oracle price after 30 minutes:usd-coin:100004864
-Latest timestamp after 30 min: 1726158679

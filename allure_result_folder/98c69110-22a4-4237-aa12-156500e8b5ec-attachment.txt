@@ -1,7 +1,0 @@
-Aggregator price: bitcoin:5759622555531
-Fallback-Oracle:bitcoin:5759622555531
-Starting Time 1726156883, Target Time: 2024-09-12 18:31:23
-30 minutes have passed. Fetching latest data...
-Aggregator price after 30 minutes: bitcoin:5774920025701
-Fallback-Oracle price after 30 minutes:bitcoin:5774920025701
-Latest timestamp after 30 min: 1726158683

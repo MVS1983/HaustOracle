@@ -1,8 +1,0 @@
-206
-1726156883
-Currency: BITCOIN
-Latest Round: 206, Latest Timestamp: 1726156883
-Previous Round: 205, Previous Timestamp: 1726155083
-Difference in Timestamps: 1800
-Actual timestamp: 719066
-Expected timestamp: 369000

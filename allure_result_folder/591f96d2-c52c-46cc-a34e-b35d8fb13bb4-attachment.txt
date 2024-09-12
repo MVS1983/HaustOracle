@@ -1,8 +1,0 @@
-204
-1726156879
-Currency: TETHER
-Latest Round: 204, Latest Timestamp: 1726156879
-Previous Round: 203, Previous Timestamp: 1726155079
-Difference in Timestamps: 1800
-Actual timestamp: 715444
-Expected timestamp: 365400

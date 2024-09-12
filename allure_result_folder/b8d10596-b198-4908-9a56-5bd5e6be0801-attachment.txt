@@ -1,0 +1,7 @@
+Aggregator price: ethereum:2321893067466224000000
+Fallback-Oracle:ethereum:2321893067466224000000
+Starting Time 1726156879, Target Time: 2024-09-12 18:31:19
+30 minutes have passed. Fetching latest data...
+Aggregator price after 30 minutes: ethereum:2330025510731568400000
+Fallback-Oracle price after 30 minutes:ethereum:2330025510731568400000
+Latest timestamp after 30 min: 1726158679

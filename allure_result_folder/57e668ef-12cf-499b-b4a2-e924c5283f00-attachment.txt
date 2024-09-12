@@ -1,0 +1,20 @@
+Fixture clear_allure_results() has been invoked.
+Checking if directory exists: /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/3c4e04ac-b5ce-4be0-a4e7-95193e23e075-container.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/3c4e04ac-b5ce-4be0-a4e7-95193e23e075-container.json'
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/6b33a15c-2e86-4e0c-be76-0fc21f9e69e9-container.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/6b33a15c-2e86-4e0c-be76-0fc21f9e69e9-container.json'
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/e9a76566-629b-4dae-a8ab-d18369f0c8f5-container.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/e9a76566-629b-4dae-a8ab-d18369f0c8f5-container.json'
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/f922a5aa-5097-4d65-b684-c7217d184be8-container.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/f922a5aa-5097-4d65-b684-c7217d184be8-container.json'
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/c9b03eb6-0531-493a-95ea-cf6131786377-container.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/c9b03eb6-0531-493a-95ea-cf6131786377-container.json'
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/495dedd2-fb61-4282-94ca-432ad53d1896-container.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/495dedd2-fb61-4282-94ca-432ad53d1896-container.json'
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/411d2131-637c-42a1-b257-c18d09ce83c1-container.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/411d2131-637c-42a1-b257-c18d09ce83c1-container.json'
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/635cb0f7-1e25-471c-8be4-e9caba907550-result.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/635cb0f7-1e25-471c-8be4-e9caba907550-result.json'
+Failed to delete /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/76a245a3-de63-41e7-bd41-cb1dce06e2e8-container.json. Reason: [Errno 2] No such file or directory: '/Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder/76a245a3-de63-41e7-bd41-cb1dce06e2e8-container.json'
+Allure results in /Users/mantsv/PycharmProjects/pythonProject17/Haust_Oracle/allure_result_folder have been cleared successfully.
+206
+1726156879
+Currency: USD-COIN
+Latest Round: 206, Latest Timestamp: 1726156879
+Previous Round: 205, Previous Timestamp: 1726155079
+Difference in Timestamps: 1800
+Actual timestamp: 719066
+Expected timestamp: 369000
